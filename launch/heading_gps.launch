@@ -1,0 +1,13 @@
+<launch>
+<node pkg="heading_angle_gps" type="heading_angle_gps" name="heading_angle_gps" clear_params="true">
+    <rosparam command="load" file="$(find heading_angle_gps)/params/heading_gps.yaml" />
+  </node>
+<!-- 
+  <node pkg="heading_angle_gps" type="heading_angle_gps" name="heading_angle_gps"/> -->
+
+
+<!--   
+  <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find localization_test)/rviz/localization_test.rviz"/>
+   -->
+</launch>

@@ -1,0 +1,3 @@
+# The minimum distance to ignore. must be changed with different noise
+threshold_distance: 0.2
+
